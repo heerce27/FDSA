@@ -3,7 +3,7 @@ using namespace std;
 int recursiveSearch(int arr[], int start, int end, int target)
 {
     if(start>end)
-    return -1;
+    return 0;
     int mid=(start+end)/2;
     if(arr[mid]==target)
     return mid;
@@ -49,9 +49,8 @@ int main()
     }
 
     int r=recursiveSearch(arr,0,n-1,f);
-    if(r!=-1)
+    if(r!=0)
     cout<<"Code found at "<<r+1<<" position";
     else
-    cout<<"Code not found";
-    
+    cout<<"Code not found";  
 }
