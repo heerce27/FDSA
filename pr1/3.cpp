@@ -38,5 +38,4 @@ int main()
     }
     cout<<"Longest word:"<<maxw;
     cout<<"\nLength of longest word:"<<maxw.length();
-
 }

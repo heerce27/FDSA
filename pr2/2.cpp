@@ -35,7 +35,7 @@ int main()
         int mid=(start+end)/2;
         if(arr[mid]==f)
         {
-            cout<<"Code found at index : "<<mid+1;
+            cout<<"\nCode found at index : "<<mid+1;
             break;
         }
         else if(arr[mid]<f)
